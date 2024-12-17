@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+
 <!-- UT-NodeJS 중간고사 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@
 
   <body>
     <!-- HEADER -->
-    
+
     <jsp:include page="header.jsp"></jsp:include>
 
     <!-- MAIN 페이지 내용 -->
@@ -55,7 +55,7 @@
     </main>
 
     <!-- FOOTER -->
-    
+
     <jsp:include page="footer.jsp"></jsp:include>
 
     <!-- Bootstrap의 JS -->

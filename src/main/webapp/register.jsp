@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+
 <!-- UT-NodeJS 중간고사 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@
 
   <body>
     <!-- HEADER -->
-    
+
     <jsp:include page="header.jsp"></jsp:include>
 
     <!-- MAIN 페이지 내용 -->
@@ -47,7 +47,7 @@
           </div>
 
           <div class="col-md-10 mx-auto col-lg-5 mb-5">
-            
+
             <!-- action 속성에서 맞는 파일 경로 입력하세요 -->
             <form
               class="p-4 p-md-5 border rounded-3 bg-light"
@@ -64,27 +64,69 @@
                 <label for="floatingName">Name</label>
               </div>
 
-              <!--
-                #################
-              
-                여기에 나머진 폼 코드를 작성하세요
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingEmail"
+                  name="email"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingEmail">Email address</label>
+              </div>
 
-                #################
-              -->
-              
+              <div class="form-floating mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="floatingPhone"
+                  name="phone"
+                  placeholder="Phone"
+                  required
+                />
+                <label for="floatingPhone">Phone</label>
+              </div>
+
+              <hr>
+
+              <div class="mb-3">
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label>
+              </div>
+
+              <div class="mb-3">
+                <label>Hobbies</label><br>
+                <input type="checkbox" id="cricket" name="hobbies" value="Cricket" />
+                <label for="cricket">Cricket</label>
+                <input type="checkbox" id="football" name="hobbies" value="Football" />
+                <label for="football">Football</label>
+                <input type="checkbox" id="chess" name="hobbies" value="Chess" />
+                <label for="chess">Chess</label>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col">
+                  <input type="password" class="form-control" name="password" placeholder="Password" required />
+                </div>
+              </div>
+
               <button class="w-100 btn btn-lg btn-primary ut-red" type="submit">
                 Submit
               </button>
               <hr />
             </form>
-            
+
           </div>
         </div>
       </div>
     </main>
 
     <!-- FOOTER -->
-    
+
 	<jsp:include page="footer.jsp"></jsp:include>
 
     <!-- Bootstrap의 JS -->
