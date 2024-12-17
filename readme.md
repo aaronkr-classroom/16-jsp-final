@@ -15,7 +15,7 @@
     2. Eclipse로 Git 프로젝트 가져오기
     3. `속성 (Properties) -> 프로젝트 패싯 (Project Facets) -> 패싯 형태로 변환 (Convert to Faceted Form)...` (Java, Dynamic Web Module, Apache 서버 런타임 선택)
 2. 코딩 실기
-    1. `register.jsp` 페이지에 폼 검증을 추가합니다(8장).
+    1. `register.jsp` 페이지에 폼 검증(유효성)을 추가합니다(8장).
         - 예제 8-5와 유사한 `<script>` 태그에서 `register.jsp` 페이지에 직접 폼 검증을 추가할 수 있습니다.
         - 또는 챕터 8의 BookMarket 프로젝트와 유사하게 폼 검증을 추가하기 위해 별도의 `.js` 파일을 추가할 수 있습니다.
     2. 홈페이지에 간단한 로그인 폼을 추가합니다.
