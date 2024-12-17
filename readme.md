@@ -21,7 +21,6 @@
     2. 홈페이지에 간단한 로그인 폼을 추가합니다.
     3. 로그인 보안의 어떤 폼을 추가합니다(10장).
         - 로그인 페이지에 선언적 보안을 사용할 수 있습니다. 예 10-2와 유사합니다(`web.xml` 파일은 예 10-1에 있습니다).
-        - 또는 로그인 페이지에 프로그래밍적 보안을 사용할 수 있습니다. 예 10-3과 유사합니다.
 
 ### Note
 
@@ -48,7 +47,6 @@ This exam is **OPEN BOOK**. You may use any materials, including the internet, b
     2. Add a simple login form to the homepage.
     3. Add some form of login security (Chapter 10).
         - You can use declarative security on the login page. Similar to Example 10-2 (the `web.xml` file is in Example 10-1).
-        - Or you can use programmatic security on the login page. Similar to Example 10-3.
 
 ### Note
 
